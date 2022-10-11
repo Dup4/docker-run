@@ -4,6 +4,7 @@ TOP_DIR="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
 IMAGE_NAME="redis"
 IMAGE_TAG="7.0.0"
+CONTAINER_NAME="redis"
 
 docker run \
     -d \
